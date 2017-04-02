@@ -61,14 +61,17 @@ int main()
 
 
     // testing
+    int cntPairs = 0;
     for( i=0; i<n-1; i++) {
         for (l = i+1; l < n ; l++) {
             if (testRows(a, i, l, m)) {
                 cout << "(" << i+1 << "," << l+1 << ") ";
+                cntPairs++;
             }
         }
         cout << endl;
     }
 
+    cout << "Numarul de perechi: " << cntPairs << endl;
     return 0;
 }

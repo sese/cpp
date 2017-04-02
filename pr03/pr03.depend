@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1491127349 source:d:\_worky\#codeblock\edy\cpp\pr03\main.cpp
+	<iostream>
+	<math.h>
+
