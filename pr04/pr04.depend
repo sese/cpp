@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1492250936 source:d:\_worky\#codeblock\edy\cpp\pr04\main.cpp
+	<iostream>
+	<iomanip>
+	<fstream>
+
